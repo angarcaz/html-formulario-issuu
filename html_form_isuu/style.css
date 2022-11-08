@@ -1,0 +1,181 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh; 
+}
+
+a {
+    color: #2d84ec;
+}
+
+  /* Header */
+header {
+    padding: 20px 60px;
+    font-size: 0;
+    -webkit-box-shadow: 0px 10px 28px -15px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px 10px 28px -15px rgba(0,0,0,0.15);
+box-shadow: 0px 10px 28px -15px rgba(0,0,0,0.15);
+
+}
+
+header div {
+    display: inline-block;
+    width: 50%;
+    font-size: 1.1rem;
+}
+
+header div img {
+    width: 120px;
+}
+
+
+#header_sign_box{
+text-align: right;
+}
+
+#header_sign_box a{
+    display: block;
+}
+
+.links-header{
+    width: auto;
+    text-align: left;
+}
+
+#header_sign_box a:first-child{
+    color: #343434;
+}
+
+.header-links{
+    text-align: left;
+}
+
+/* Body */
+
+.main_body {
+    width: 60%;
+    margin: 20px 0 0 100px;
+}
+
+
+/* Form */
+
+form {
+    color: #343434;
+    position: absolute;
+   top: 22%;
+   left: 10%;
+}
+
+form h1 {
+    font-size: 2rem;
+}
+
+.sign_box {
+    background-color: #4286f5;
+    display:inline-block;
+    font-size: 15px;
+    border:2px solid #4286f5;
+    border-radius: 3px;
+    margin: 0px 10px 10px 0;
+    padding: 4px 7px 4px 1px;
+}
+
+.sign_box img{
+    width: 23px;
+    margin-bottom: -7px;
+}
+
+.sign_box a{
+    color: #fff;
+}
+
+.sign_google {
+    background-color: #4286f5;
+    border:2px solid #4286f5;
+    border-radius: 3px;
+
+}
+
+.sign_facebook {
+    background-color: #4268b2;
+    border:2px solid #4268b2;
+    border-radius: 3px;
+}
+
+#sign_email a {
+    color:#343434;
+}
+
+fieldset {
+    padding: 10px 20px;
+    border: none;
+}
+
+input[type=email], input[type=password] {
+    display: block;
+    width: 90%;
+    padding: 5px;
+}
+
+input[type=email]{
+    margin: 2px 0 25px 0;
+}
+
+
+input[type="submit"]{
+text-transform: uppercase;
+font-size: 1rem;
+font-weight: bolder;
+letter-spacing: 0.1rem;
+color: #bbbbbb;
+padding: 12px 20px;
+border: 3px dashed #bbbbbb;
+background-color: #fff;
+border-radius: 30px;
+}
+
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    color: #f27061;
+    border: 3px dashed #f27061;
+    transition-duration: 0.3s;
+}
+
+fieldset:nth-child(2){
+    font-weight: bolder;
+}
+
+/* Footer */
+footer {
+    padding: 20px 60px;
+    width: 100%;
+    font-size: 0;
+-webkit-box-shadow: 0px -10px 28px -15px rgba(0,0,0,0.15);
+-moz-box-shadow: 0px -10px 28px -15px rgba(0,0,0,0.15);
+box-shadow: 0px -10px 28px -15px rgba(0,0,0,0.15);
+position: absolute;
+bottom: 0;
+}
+
+footer span{
+    width: 15%;
+    display: inline-block;
+}
+
+.links-footer{
+    width: 85%;
+    display: inline-block;
+}
+
+.links-footer a{
+    color: #343434;
+    padding: 0 10px;
+}

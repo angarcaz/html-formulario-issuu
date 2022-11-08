@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <title>Form issuu - Angela García</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Issuu_logo.svg/1280px-Issuu_logo.svg.png"
+          alt="issuu logo"
+        />
+      </div>
+      <div id="header_sign_box">
+        <div class="links-header">
+          <a href="#">Already an user?</a>
+          <a href="#">Sign in</a>
+        </div>
+      </div>
+    </header>
+    <div class="main_body">
+      <form action="#">
+        <fieldset>
+          <h1>Create an Issuu Account.</h1>
+          <div class="sign_google sign_box">
+            <a href="#" id="google"
+              ><img
+                src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1"
+              />
+              Sign in with Google</a
+            >
+          </div>
+          <div class="sign_facebook sign_box">
+            <a href="#" id="facebook"
+              ><img
+                src="https://thumbs.dreamstime.com/b/icono-de-facebook-popular-logo-medios-sociales-elemento-vector-fondo-blanco-del-los-sobre-con-ilustraci%C3%B3n-ai-198692919.jpg"
+              />
+              Continue with Facebook</a
+            >
+          </div>
+          <div id="sign_email">
+            <a href="#">or with email</a>
+          </div>
+        </fieldset>
+        <fieldset>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="e.g. john.doe@email.com"
+            required
+          />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="pwd" required />
+        </fieldset>
+        <fieldset>
+          <label
+            ><input type="checkbox" id="accept" value="accept" />I accept the
+            <a href="#">Terms of Service</a> and the
+            <a href="#">Professional Terms of Service.</a></label
+          >
+        </fieldset>
+        <fieldset>
+          <input type="submit" value="CREATE ACCOUNT" />
+        </fieldset>
+      </form>
+    </div>
+    <footer>
+      <span>Issuu Inc.</span>
+      <div class="links-footer">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">DMCA</a>
+      </div>
+    </footer>
+  </body>
+</html>
